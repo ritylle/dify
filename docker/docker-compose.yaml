@@ -21,11 +21,11 @@ services:
       # The base URL of console application api server, refers to the Console base URL of WEB service if console domain is
       # different from api or web app domain.
       # example: http://cloud.dify.ai
-      CONSOLE_API_URL: ''
+      CONSOLE_API_URL: 'http://api.esgm.com.br'
       # The URL prefix for Service API endpoints, refers to the base URL of the current API service if api domain is
       # different from console domain.
       # example: http://api.dify.ai
-      SERVICE_API_URL: ''
+      SERVICE_API_URL: 'http://udify.esgm.com.br'
       # The URL prefix for Web APP frontend, refers to the Web App base URL of WEB service if web app domain is different from
       # console or api domain.
       # example: http://udify.app
